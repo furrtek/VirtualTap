@@ -1,6 +1,6 @@
 # VirtualTap
 
-Code and design files will appear here one day !
+Please respect the LICENSE :3
 
 ## Servo emulator
 
