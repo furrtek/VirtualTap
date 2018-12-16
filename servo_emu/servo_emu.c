@@ -1,5 +1,5 @@
 // VirtualBoy servo board emulator
-// For ATTiny25, internal RC osc, CKDIV8
+// For ATTiny25, internal RC osc, CKDIV8 off
 // Part of the VirtualTap project
 // 2018 Furrtek
 
@@ -81,9 +81,9 @@ int main(void) {
 	DDRB = 0b00011111;		// PB0~PB4 as outputs
 	PORTB = 0b00000000;
 
+	OCR0A = 49;				// 8M/8/(49+1) = 20kHz (50us)
 	TCCR0A = 0b00000010;	// CTC
-	TCCR0B = 0b00000001;	// Prescaler = 1
-	OCR0A = 49;				// 1M/1/(x+1) = 20kHz (50us)
+	TCCR0B = 0b00000010;	// Prescaler = 8
 	TIMSK = 0b00010000;		// Match A interrupt
 
 	sei();

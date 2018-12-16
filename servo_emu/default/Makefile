@@ -4,7 +4,7 @@
 
 ## General Flags
 PROJECT = virtualboysync
-MCU = attiny25
+MCU = attiny45
 TARGET = servo_emu.elf
 CC = avr-gcc
 
