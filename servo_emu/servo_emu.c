@@ -1,5 +1,6 @@
 // VirtualBoy servo board emulator
 // For ATTiny25, internal RC osc, CKDIV8 off
+// Fuses Ex:0xFF High:0xDF Low:0xE2
 // Part of the VirtualTap project
 // 2018 Furrtek
 
