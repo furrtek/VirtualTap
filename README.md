@@ -2,6 +2,11 @@
 
 ![Virtualtap pcb picture](photo.jpg)
 
+* `doc`: Installation manuals.
+* `logic`: Verilog sources, pin assignments and bitstream files for NTSC and VGA versions.
+* `pcb`: Schematics, BOM and GERBER files.
+* `servo_emu`: AVR firmware and hookup guide for servo emulator.
+
 ## What it is
 A small mod board made to be plugged inside a Nintendo Virtualboy unit to make it output standard VGA or NTSC RGB video.
 
@@ -16,7 +21,7 @@ The signals sent to one of the Virtualboy's displays are tapped and level-transl
 
 This is only useful if you wish to consolize your VirtualBoy and get rid of the mechanical parts to make it smaller.
 
-The servo emulator makes the VirtualBoy think the eye displays are still there and working properly.
+The servo emulator makes the VirtualBoy think the eye displays are still there and working properly. Without it, the games won't start.
 
 You only need to program a cheap microcontroler with this code and wire it up to your VirtualBoy's main board.
 
