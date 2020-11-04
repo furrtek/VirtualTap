@@ -1,0 +1,210 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2012 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions
+# and other software and tools, and its AMPP partner logic
+# functions, and any output files from any of the foregoing
+# (including device programming or simulation files), and any
+# associated documentation or information are expressly subject
+# to the terms and conditions of the Altera Program License
+# Subscription Agreement, Altera MegaCore Function License
+# Agreement, or other applicable license agreement, including,
+# without limitation, that your use is for the sole purpose of
+# programming logic devices manufactured by Altera and sold by
+# Altera or its authorized distributors.  Please refer to the
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 12.0 Build 178 05/31/2012 SJ Web Edition
+# Date created = 02:28:29  May 20, 2013
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		VBTVout_NTSC2_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX V"
+set_global_assignment -name DEVICE 5M240ZT100C5
+set_global_assignment -name TOP_LEVEL_ENTITY VBTVout_NTSC2
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 12.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:52:40  SEPTEMBER 28, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION 12.0
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE TQFP
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVCMOS"
+set_global_assignment -name STRATIX_CONFIGURATION_DEVICE EPCS4
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 100
+set_global_assignment -name AUTO_RESTART_CONFIGURATION OFF
+set_global_assignment -name STRATIX_JTAG_USER_CODE 13371337
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED WITH WEAK PULL-UP"
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS OFF
+set_global_assignment -name TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS OFF
+set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL OFF
+set_location_assignment PIN_62 -to CLK_40M
+set_location_assignment PIN_51 -to SRAM_ADDR[15]
+set_location_assignment PIN_50 -to SRAM_ADDR[14]
+set_location_assignment PIN_49 -to SRAM_ADDR[13]
+set_location_assignment PIN_48 -to SRAM_ADDR[12]
+set_location_assignment PIN_47 -to SRAM_ADDR[11]
+set_location_assignment PIN_26 -to SRAM_ADDR[10]
+set_location_assignment PIN_27 -to SRAM_ADDR[9]
+set_location_assignment PIN_28 -to SRAM_ADDR[8]
+set_location_assignment PIN_29 -to SRAM_ADDR[7]
+set_location_assignment PIN_52 -to SRAM_ADDR[6]
+set_location_assignment PIN_53 -to SRAM_ADDR[5]
+set_location_assignment PIN_54 -to SRAM_ADDR[4]
+set_location_assignment PIN_55 -to SRAM_ADDR[3]
+set_location_assignment PIN_71 -to SRAM_ADDR[2]
+set_location_assignment PIN_74 -to SRAM_ADDR[1]
+set_location_assignment PIN_75 -to SRAM_ADDR[0]
+set_location_assignment PIN_69 -to SRAM_DATA[15]
+set_location_assignment PIN_68 -to SRAM_DATA[14]
+set_location_assignment PIN_67 -to SRAM_DATA[13]
+set_location_assignment PIN_66 -to SRAM_DATA[12]
+set_location_assignment PIN_61 -to SRAM_DATA[11]
+set_location_assignment PIN_58 -to SRAM_DATA[10]
+set_location_assignment PIN_57 -to SRAM_DATA[9]
+set_location_assignment PIN_56 -to SRAM_DATA[8]
+set_location_assignment PIN_36 -to SRAM_DATA[7]
+set_location_assignment PIN_35 -to SRAM_DATA[6]
+set_location_assignment PIN_34 -to SRAM_DATA[5]
+set_location_assignment PIN_33 -to SRAM_DATA[4]
+set_location_assignment PIN_38 -to SRAM_DATA[3]
+set_location_assignment PIN_40 -to SRAM_DATA[2]
+set_location_assignment PIN_41 -to SRAM_DATA[1]
+set_location_assignment PIN_42 -to SRAM_DATA[0]
+set_location_assignment PIN_18 -to VB_CLEAR
+set_location_assignment PIN_19 -to VB_CLKA
+set_location_assignment PIN_20 -to VB_CLKB
+set_location_assignment PIN_21 -to VB_CLKC
+set_location_assignment PIN_16 -to VB_CS
+set_location_assignment PIN_88 -to VB_PIXELS[15]
+set_location_assignment PIN_91 -to VB_PIXELS[14]
+set_location_assignment PIN_92 -to VB_PIXELS[13]
+set_location_assignment PIN_96 -to VB_PIXELS[12]
+set_location_assignment PIN_97 -to VB_PIXELS[11]
+set_location_assignment PIN_98 -to VB_PIXELS[10]
+set_location_assignment PIN_99 -to VB_PIXELS[9]
+set_location_assignment PIN_100 -to VB_PIXELS[8]
+set_location_assignment PIN_2 -to VB_PIXELS[7]
+set_location_assignment PIN_3 -to VB_PIXELS[6]
+set_location_assignment PIN_4 -to VB_PIXELS[5]
+set_location_assignment PIN_5 -to VB_PIXELS[4]
+set_location_assignment PIN_6 -to VB_PIXELS[3]
+set_location_assignment PIN_7 -to VB_PIXELS[2]
+set_location_assignment PIN_14 -to VB_PIXELS[0]
+set_location_assignment PIN_95 -to VB_PIXELS[1]
+set_location_assignment PIN_17 -to VB_SHIFT
+set_location_assignment PIN_85 -to V_BLUE[1]
+set_location_assignment PIN_86 -to V_BLUE[0]
+set_location_assignment PIN_83 -to V_GREEN[1]
+set_location_assignment PIN_84 -to V_GREEN[0]
+set_location_assignment PIN_82 -to V_RED[1]
+set_location_assignment PIN_81 -to V_RED[0]
+set_location_assignment PIN_78 -to V_VS
+set_location_assignment PIN_72 -to nSRAM_OE
+set_location_assignment PIN_30 -to nSRAM_WE
+set_global_assignment -name EDA_TIME_SCALE "1 ns" -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name SYNTH_TIMING_DRIVEN_SYNTHESIS OFF
+set_global_assignment -name REMOVE_REDUNDANT_LOGIC_CELLS ON
+set_global_assignment -name ROUTER_TIMING_OPTIMIZATION_LEVEL MAXIMUM
+set_global_assignment -name ROUTER_LCELL_INSERTION_AND_LOGIC_DUPLICATION ON
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name SDC_FILE VBTVout.out.sdc
+set_global_assignment -name VERILOG_FILE testbench.v
+set_global_assignment -name VERILOG_FILE VBTVout_vga.v
+set_global_assignment -name VERILOG_FILE VBTVout_ntsc.v
+set_location_assignment PIN_73 -to PAL_SW
+set_location_assignment PIN_76 -to MODE
+set_global_assignment -name VERILOG_FILE VBTVout_ntsc2.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PAL_SW
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[15]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[14]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[13]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[12]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[11]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[10]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[9]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[8]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[7]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[6]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[5]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[4]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[3]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[2]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[1]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_ADDR[0]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[15]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[14]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[13]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[12]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[11]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[10]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[9]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[8]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[7]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[6]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[5]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[4]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[3]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[2]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[1]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SRAM_DATA[0]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_CLEAR
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_CLKA
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_CLKB
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_CLKC
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_CS
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[15]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[14]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[13]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[12]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[11]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[10]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[9]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[8]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[7]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[6]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[5]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[4]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[3]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[2]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[1]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_PIXELS[0]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to VB_SHIFT
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to V_BLUE[1]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to V_BLUE[0]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to V_GREEN[1]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to V_GREEN[0]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to V_RED[1]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to V_RED[0]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to V_VS
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to nSRAM_OE
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to nSRAM_WE
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to CLK_40M
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_instance_assignment -name POWER_UP_LEVEL LOW -to PALETTE
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to MODE
