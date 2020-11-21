@@ -1,5 +1,7 @@
 # VirtualTap
 
+I (furrtek) do not make these anymore ! If you have questions or issues with your kit, please contact the seller.
+
 ![Virtualtap pcb picture](photo.jpg)
 
 * `doc`: Installation manuals.
