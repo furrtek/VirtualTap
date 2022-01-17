@@ -7,11 +7,11 @@ Connect the 6 JTAG pins on the board to the programmer, provide power to the boa
 
 The 8 default palettes can be modified to suit your needs by editing the following section of Verilog code:
 
-`
+```
 // Palette LUT
-always @(*)
-begin						 // 11    10    01    00
-	case(PALETTE)			 // RRGGBBRRGGBBRRGGBBRRGGBB
+always @(*) begin
+				     // 3     2     1     0
+	case(PALETTE)		     // RRGGBBRRGGBBRRGGBBRRGGBB
 		3'd0: PAL_COLORS <= 24'b110000100000010000000000;	// Red gradient
 		3'd1: PAL_COLORS <= 24'b111100101000010100000000;	// Yellow gradient
 		3'd2: PAL_COLORS <= 24'b001100001000000100000000;	// Green gradient
@@ -22,12 +22,12 @@ begin						 // 11    10    01    00
 		3'd7: PAL_COLORS <= 24'b000000010101101010111111;	// White inverted gradient
 	endcase
 end
-`
+```
 
-Each line of the `case` statement defines the RGB values for each of the 4 colors of a given palette, top to bottom from 0 to 7.
+Each line in the `case` block defines the RGB values for each of the 4 colors of a given palette, top to bottom from 0 to 7.
 
 The 24 bits represent the 2-bit values for each R, G and B component for each color index, left to right from brightest to darkest.
 
-All combinations of colors are possible but the output is limited by the hardware to 2-bit per component, so the available colors are limited to the following table (which is coincidentally the Sega Master System palette):
+All combinations of colors are possible but the output is limited by the hardware to 2-bit per component, so the available colors can only be taken from the following table (which is coincidentally the Sega Master System palette):
 
 ![Virtualtap possible colors](colors.png)
